@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+    color:white;
+}
+footer{
+    margin: auto -8px;
+    border-top: 4px solid #FDB32F;
+    
+}
+
+span{
+    color:#FDB32F;
+}
