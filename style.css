@@ -9,10 +9,6 @@ body{
     margin-bottom: 0px;
     padding: 10px;
 }
-.relative{
-
-
-}
 .designer{
     border: 3px solid rgb(35, 35, 35);
     float: inline-start ;
@@ -119,5 +115,19 @@ span{
 }
 .imagens{
     margin-left: 100px;
+
+}
+.center {
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+    border-top: 1px solid #4CC8FF;
+}
+.scenter {
+    padding: 30px;
+    position: absolute;
+    right: 700px;
+    text-align: center;
+    margin: auto;
 
 }
