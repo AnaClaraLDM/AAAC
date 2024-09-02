@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 body{
     font-family: "Sora", sans-serif;
     background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
     color:white;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    text-align: center;
 }
 .pagina{
     background-color: #0F315C;
@@ -41,6 +50,7 @@ body{
     right: 330px;
 }
 h1{
+    text-transform: uppercase;
     position: relative;
     width: 900px;
     color:#4CC8FF;
@@ -109,7 +119,7 @@ span{
     margin-left: 100px;
 }
 .contato{
-    float: left;
+    display: inline-block;
     width: 400px;
     height: 200px;
 }
@@ -119,15 +129,9 @@ span{
 }
 .center {
     text-align: center;
-    margin: auto;
-    margin-top: 250px;
     border-top: 1px solid #4CC8FF;
 }
 .scenter {
     padding: 30px;
-    position: absolute;
-    right: 700px;
     text-align: center;
-    margin: auto;
-
 }
