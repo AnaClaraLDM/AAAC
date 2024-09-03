@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora";
+    color: #FFF;
+    background-color: #0F315C;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding-top: 24px;
+}
+
+main{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main .name-figma{
+    border: 2px solid black;
+    position: relative;
+}
+main .name-figma img{
+    position: absolute;
+}
+main .name-figma.designer{
+    background: #FDB32F;
+}
+main .name-figma.designer img{
+    right: -50px;
+    bottom: -50px;
+}
+main .name-figma.dev{
+    background: #29973b;
+}
+main .name-figma.dev img{
+    left: -50px;
+    top: -50px;
+}
+
+
+
+footer{
+    border-top: 3px solid #FDB32F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg,
+    #213F8C 50%, #1E3980
+    69.17%, #1B3373 100%);
+}
+footer p{
+    max-width: 30%;
+}
+footer p span,
+footer p strong{
+    color: #FDB32F;
+}
+
+body{
+    padding: 4px 0;
+    background-color: #0F315C;
+  }
+  
+  
+  section .plug{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+    margin-top: -30px;
+    
+    
+    background-image: url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector.png), url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+    
+  }
+  
+  section hr{
+    margin-top: 23px;
+    border: 2px solid white;
+  }
+
+footer address{}
+footer address div{}
+footer section{}
