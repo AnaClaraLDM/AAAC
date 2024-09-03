@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 body{
     font-family: "Sora", sans-serif;
-    background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+    background-color: #0F315C;
     color:white;
+    margin: 0;
 }
 .container{
     max-width: 1200px;
@@ -13,14 +14,12 @@ main{
     text-align: center;
 }
 .pagina{
-    background-color: #0F315C;
-
-    margin: -10px;
     margin-bottom: 0px;
     padding: 20px;
 }
 main .name-figma{
     border: 2px solid black;
+    padding: 5px;
     position: relative;
     text-align: center;
 }
@@ -72,7 +71,7 @@ a{
     text-transform: uppercase;
     color:white;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #ffff;
     border-radius: 30px;
     margin: auto;
@@ -97,7 +96,7 @@ section hr{
     border: 2px solid white;
 }
 footer{
-    
+    background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
     border-top: 3px solid #FDB32F;
     padding-top: 50px;
     padding-bottom: 50px;
