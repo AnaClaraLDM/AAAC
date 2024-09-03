@@ -10,7 +10,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.hover i{
+.a:hover{
     color: #FDB32F;
 }
 main{
