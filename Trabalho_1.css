@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    font-family: "Sora", sans-serif;
+    background: linear-gradient(90deg,#213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+    color:white;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    text-align: center;
+}
+.pagina{
+    background-color: #0F315C;
+
+    margin: -10px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+main .name-figma{
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+}
+main .name-figma img{
+    position: absolute;
+}
+main .name-figma.designer{
+    max-width: 80px;
+    background: #FDB32F;
+    top: 190px;
+    left: 150px;
+}
+main .name-figma.designer img{
+    right: -30px;
+    bottom: -30px;
+}
+main .name-figma.dev{
+    max-width: 120px;
+    background: #29973b;
+    top: 440px;
+    left: 950px;
+}
+main .name-figma.dev img{
+    left: -30px;
+    top: -35px;
+}
+h1{
+    text-transform: uppercase;
+    position: relative;
+    max-width: 900px;
+    color:#4CC8FF;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.text_center{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 750px;
+    margin-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+.plug{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0F315C;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    background-image: url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector.png), url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left, center right;
+}
+  
+section hr{
+    margin-top: 100px;
+    border: 2px solid white;
+}
+footer{
+    
+    border-top: 3px solid #FDB32F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer p{
+    max-width: 30%;
+}
+.rigth{
+    font-size: 25px;
+    max-width: 450px;
+    margin-bottom: 100px;
+}
+
+span{
+    color:#FDB32F;
+}
+.lighter{
+    font-weight: lighter;
+}
+
+.endereco {
+    padding: 0px;
+    width: 100%; /* Ajuste para ocupar o espaço disponível */
+    max-width: 1050px; /* Limite superior para a largura */
+    margin: 0 auto; /* Centraliza a div endereco */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.contato {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+    width: 30%; 
+    height: 200px;
+    box-sizing: border-box;
+}
+.contato p {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+    border-top: 1px solid #4CC8FF;
+}
+.scenter {
+    padding: 30px;
+    text-align: center;
+}
+i{
+    color: #4CC8FF;
+}
