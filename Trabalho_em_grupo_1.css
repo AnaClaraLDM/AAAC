@@ -9,12 +9,14 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+a:hover{
+    color: #FDB32F;
+}
 main{
     text-align: center;
 }
 .pagina{
     background-color: #0F315C;
-
     margin: -10px;
     margin-bottom: 0px;
     padding: 20px;
@@ -23,6 +25,7 @@ main .name-figma{
     border: 2px solid black;
     position: relative;
     text-align: center;
+    padding: 5px;
 }
 main .name-figma img{
     position: absolute;
@@ -72,7 +75,7 @@ a{
     text-transform: uppercase;
     color:white;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #ffff;
     border-radius: 30px;
     margin: auto;
