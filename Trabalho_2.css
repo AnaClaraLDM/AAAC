@@ -63,6 +63,7 @@ header div a:hover{
 }
 main{
     margin: 100px;
+    padding-bottom: 20px;
 }
 main h1{
     font-size: 40px;
@@ -154,30 +155,78 @@ footer section img{
     vertical-align: top;
     margin-right: 50px;
 }
+.nav a:hover{
+    font-weight: 400;
+    color: #FFC82C;
+}
 footer section a{
     display: block;
     color: white;
     text-decoration: none;
     padding: 5px 0;
 }
-span{
+.contatos span {
     display: block;
-    max-width: 300px;
+    margin-bottom: 20px;
 }
 
 .contatos a {
-    font-size: 1.5em; 
-    margin-right: 0.5em; 
-    color: white; 
-    text-decoration: none; 
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    float: left; 
+}
+
+.texto {
+    margin-left: 0; 
+    color: white;
 }
 
 .contatos p {
-    display: inline;
-    color: white; 
+    vertical-align: middle;
     margin: 0;
 }
-.contatos p{
-    text-align: right;
+.icone{
+    padding-right: 20px;
 }
-
+.geral{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.lorem{
+    position: absolute;
+    left: 345px;
+    bottom: 10px;
+    max-width: 500px;
+}
+.telegram{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px; 
+    padding: 20px;
+}
+.telegram span {
+    display: block;
+    margin-top: 45px; 
+    background-color: #0088cc;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.telegram a {
+    font-size: 2em;
+    margin-right: 10px; 
+    text-decoration: none; 
+    float: left; 
+}
+.telegram span p {
+    display: inline; 
+    margin: 0;
+    line-height: 2.5; 
+}
