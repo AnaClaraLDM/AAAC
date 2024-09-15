@@ -146,6 +146,7 @@ span.block p{
     color: #12B76A;
 }
 .buttom{
+    text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     background-color: #12B76A;
@@ -205,6 +206,7 @@ div.buttom2{
     margin-bottom: 25px;
 }
 .buttom2{
+    text-transform: uppercase;
     border: 1px solid #12B76A;
     border-radius: 5px;
     color: #12B76A;
