@@ -3,7 +3,6 @@ body{
     background: white;
     font-family: "Lato";
     margin: 0;
-    margin-top: -12px;
 }
 .container1{
     max-width: 1200px;
@@ -14,7 +13,7 @@ header{
     color: white;
     background:#203C86;
 }
-header p{
+header section{
     text-transform: uppercase;
     text-align: right;
     padding: 10px 0px;
@@ -22,7 +21,7 @@ header p{
     font-size: 12px;
     font-weight: 300;
 }
-header p a{
+header section a{
     text-decoration: none;
     padding-left: 20px ;
     color: #FFC82C;
@@ -82,6 +81,7 @@ main h1{
 main p{
     font-size: 20px;
     margin-bottom: 50px;
+    line-height: 1.6em
 }
 .subtitulo{
     color: #2648A1;
