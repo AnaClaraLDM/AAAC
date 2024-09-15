@@ -146,6 +146,7 @@ span.block p{
     color: #12B76A;
 }
 .buttom{
+    text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     background-color: #12B76A;
@@ -201,15 +202,19 @@ span p.texto a{
     margin-right: 0px;
     padding: 0px;
 }
-div.buttom2{
-    margin-bottom: 25px;
-}
 .buttom2{
+    margin-bottom: 25px;
+    text-transform: uppercase;
     border: 1px solid #12B76A;
     border-radius: 5px;
-    color: #12B76A;
-    padding: 10px;
+    padding: 10px 20px;
     margin-right: 35px;
+}
+div.buttom2 a{
+    text-decoration: none;
+    color: #12B76A;
+    margin: 0;
+    padding: 0;
 }
 footer{
     margin: 30px 0px;

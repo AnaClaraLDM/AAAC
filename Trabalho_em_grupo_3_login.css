@@ -50,10 +50,13 @@ span.baixo p{
     font-weight: 100px;
     width: 250px;
 }
+span.baixo a{
+    margin-top: 10px;
+    text-decoration: none;
+}
 span.baixo h3.buttom{
     text-align: center;
     color: #fff;
-    text-decoration: none;
     background-color: #12B76A;
     padding: 15px;
     border-radius: 5px;
