@@ -55,6 +55,7 @@ span.baixo a{
     text-decoration: none;
 }
 span.baixo h3.buttom{
+    text-transform: uppercase;
     text-align: center;
     color: #fff;
     background-color: #12B76A;
