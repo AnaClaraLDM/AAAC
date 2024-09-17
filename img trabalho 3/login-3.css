@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter";
+    background-color: #F1F1F1;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+h1{
+    color: #0C2A43;
+}
+div.block div span h1 , div.block div span h5{
+    margin: 0;
+}
+div.block div span h1{
+    margin-bottom: 10px;
+}
+.right{
+    float: right;
+}
+div figure , div span{
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+div span.baixo h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+div span h5{
+    font-weight: 500;
+    width: 160px;
+    color: #656D77;
+}
+div.block div , div.block span.baixo{
+    display: block;
+}
+div.block , figure.right{
+    display: inline-block;
+}
+span.baixo p{
+    color: #656D77;
+    font-weight: 100px;
+    width: 250px;
+}
+span.baixo a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+span.baixo h3.buttom{
+    text-align: center;
+    color: #fff;
+    background-color: #12B76A;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+    max-width: 200px;
+}
+div.block div{
+    margin-bottom: 100px;
+}
