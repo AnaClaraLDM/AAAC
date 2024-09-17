@@ -72,10 +72,7 @@ section{
     padding: 20px;
     margin: 0px;
     padding-bottom: 0px;
-}
-hr{
-    color: rgba(0,0,0,0.1);
-    margin: 0px;
+    border-bottom: 2px solid rgba(241,241,241,0.8);
 }
 main section div{
     margin: 0;
@@ -103,6 +100,9 @@ span.top{
     position: absolute;
     top: 35px;
     left: 100px;
+}
+.borderbuttom{
+    box-shadow: 0px 10px 20px rgba(241,241,241,0.1);
 }
 .visitas{
     color: #656D77;
@@ -146,6 +146,7 @@ span.block p{
     color: #12B76A;
 }
 .buttom{
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -179,9 +180,9 @@ article h6.texto{
 }
 article h2.titulo{
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 article span h6 , article span a{
     display: inline-block;
@@ -207,10 +208,11 @@ span p.texto a{
     text-transform: uppercase;
     border: 1px solid #12B76A;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin-right: 35px;
 }
 div.buttom2 a{
+    font-size: 12px;
     text-decoration: none;
     color: #12B76A;
     margin: 0;
@@ -230,4 +232,7 @@ footer p, footer ul{
     color: #656D77;
     margin: 0px;
     padding: 0px;
+}
+h2.article{
+    padding-bottom: 20px;
 }
